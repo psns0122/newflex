@@ -1,0 +1,24 @@
+.navigation-bar {
+    /*투명도까지 지정하는 방법*/
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0 10px 0 0;
+    /*정렬*/
+    display: flex; /*나를 기준축으로 하겠다*/
+    justify-content: space-around; /*균등하게 공백을 두겠다*/
+    align-items: center;
+    position: fixed;
+    /* 고정값이고 화면에 가장 아래쪽에 위치,
+    아래로부터 0 만큼 떨어져서 위치 시키겠다 */
+    bottom: 0;
+}
+
+.navigation-bar span {
+    color: black;
+    font-size: 2rem;
+}
+
+find-icon-licked {
+    font-weight: 700;
+}
